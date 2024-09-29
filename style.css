@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navi {
+margin-top: 50px;
+}
+.first-main {
+    background: rgb(197, 222, 168);
+    width: 1400px;
+    position: fixed;
+    z-index: 1;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.img {
+
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.ul-main {
+
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.nav-ul-li {
+
+}
+.second {
+    height: 500px;
+    background: rgb(147, 217, 204);
+}
+.third {
+    height: 500px;
+    background: rgb(147, 164, 217);
+}
+.fourth {
+    height: 500px;
+    background: rgb(195, 147, 217);
+}
+.fifth {
+    height: 500px;
+    background: rgb(217, 147, 194);
+}
+.h2-1{
+    padding-top: 270px;
+    padding-left: 600px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.h2-2{
+    padding-top: 230px;
+    padding-left: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.h2-3{
+    padding-top: 230px;
+    padding-left: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.h2-4{
+    padding-top: 230px;
+    padding-left: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.up{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -90px;
+    margin-left: 1300px;
+}
+.down{
+    position: absolute;
+    margin-top: -1870px;
+    margin-left: 1300px;
+    width: 40px;
+    height: 40px;
+    
+}
+.navi {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    position: relative;
+    margin-right: 300px; 
+    font-size: 30px;
+}
+.title {
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-hidden {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: all s;
+
+}
+
+.nav-item:hover > .nav-hidden {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+.nav-hidden-lii {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    transition:  0.3s ease;
+    margin: 5px 0; 
+    width: 200px;
+    list-style: none;
+}
+
+.nav-hidden-lii:hover {
+    background: rgba(214, 121, 189, 0.651);
+}
+
+
